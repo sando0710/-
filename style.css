@@ -190,6 +190,7 @@ div#left ul li span {
 /* ========================================
     サイド（ライト）
 ========================================= */
+
 div#right {
   width: 365px;
   height: 198px;
@@ -224,6 +225,7 @@ div#right ul li a#blog {
 div.clear {
   clear: both;
 }
+
 /* ========================================
     フッター用
 ========================================= */
@@ -238,22 +240,20 @@ footer {
   line-height: 58px;
 }
 
-
-
 /* ========================================
     メニュー一覧
 ========================================= */
 h2#heading {
   background: url(images/title.jpg);
-  width: 925px;
+  width: 960px;
   height: 70px;
-  border: 1px solid #fff;
+  border: 5px solid #fff;
   margin: 20px;
   font-size: 24px;
   font-weight: bold;
   color: #2f5734;
   line-height: 70px;
-  padding-left: 23px;
+  padding-left: 10px;
 }
 
 div#left dl {
@@ -276,4 +276,17 @@ div#left dl dd {
 
 div#left dl dd:last-child {
   margin-bottom: 0%;
+}
+
+/* ========================================
+    コンタクトページ
+========================================= */
+
+p#contact_text {
+  color: #927e7a;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #ffefea;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
 }
